@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom game</title>
+    <style>
+        .question{
+             text-align: center; 
+             top: 50%;
+             left: 50%;
+             position: absolute;
+             transform: translate(-50%, -50%);
+        }
+        body{
+            background: rgb(180, 228, 247);
+        }
+        input{
+            padding: 20px 50px;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(42, 50, 165);
+            margin-right: 5px;
+        }
+        button{
+            padding: 20px 50px;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(42, 50, 165);
+        }
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+          
+
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+   <div class="question">
+    <div class="container">
+        <h2 class="animate__animated animate__fadeInLeft animate__delay-2s" >Hey Do You Want to Ask Something?</h2>
+        <input type="text">
+        <button>submit</button>
+    </div>
+         <h1  class="animate__animated animate__fadeInUp"> Answer</h1>
+   </div>
+   
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+   <!-- partical parts -->
+
+
+
+ 
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
